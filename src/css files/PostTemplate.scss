@@ -1,0 +1,221 @@
+// post template 
+
+.image {
+    padding: 10px 10px 0px;
+    box-sizing: border-box;
+}
+.subContainer {
+    border: 1px solid ;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px #737272;
+    background-color: white;
+    border-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.textAreaContainer {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.textAreaMainContainer {
+    padding-right: 30px;
+    box-sizing: border-box;
+    width: 90%;
+}
+.textArea {
+    resize: none;
+    border: 1px solid;
+    border-color: white;
+    background-color: #f0eff4;
+    width: 100%;
+    box-sizing: border-box;
+    color: black;
+    padding: 12px 0px;
+    padding-left: 20px;
+    border-radius: 20px;
+    outline-color: #9c075b;
+}
+.postButton {
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #f0eff4;
+    color: black;
+    font-weight: bold;
+}
+.postButton:hover {
+    background-color: #9c075b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.attachmentContainer {
+    display: flex;
+    justify-content: space-around;
+}
+.attachmentSubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.attachmentDisplay {
+    display: flex;
+}
+.previewWebcamImage {
+    width: 15px;
+}
+.content {
+    margin: 0px 0px;
+    padding-left: 10px;
+}
+.content:hover {
+    color: #9c075b;
+}
+// attach file styles
+.uploadContainer {
+    display: block;
+    box-sizing: border-box;
+    padding: 30px;
+    width: 100%;
+    background-color: rgb(244, 241, 241);
+    text-align: center;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.button {
+    margin-top: 20px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.primaryButton {
+    background-color: blue;
+    border-color: white;
+    padding: 5px 20px;
+    color: white;
+}
+.secondaryButton {
+    background-color: red;
+    border-color: white;
+    padding: 5px 20px;
+    color: white;
+    margin-right: 85px;
+}
+// webcam image attach files styles
+.webcamContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.webcamCaptureButton {
+    border: 1px solid black;
+    font-weight: bold;
+    align-items: center;
+    padding: 4%;
+    cursor: pointer;
+    background-color: rgb(210, 202, 144);
+}
+// audio attachment files 
+.audioStatus {
+    text-align: center;
+    margin-top: 20px;
+}
+.audioRecordingButton {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.audioStartButton{
+    border: 1px solid white;
+    padding: 10px 25px;
+    margin-right: 10px;
+    border-radius: 20px;
+    background-color: #f0eff4;
+    color: black;
+    font-weight: bold;
+}
+.audioStartButton:hover {
+    background-color: #9c075b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.audioStopButton{
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #f0eff4;
+    color: black;
+    font-weight: bold;
+}
+.audioStopButton:hover {
+    background-color: #9c075b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.audio-close-button{
+    margin-left: 10px;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background-color: #f0eff4;
+    color: black;
+    font-weight: bold;
+}
+.audio-close-button:hover {
+    background-color: #9c075b;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.audioControls {
+    width: 100%;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 990px) {
+    .postFeedContainer {
+        width: 94%;
+        left:0;
+        top:80px;
+        padding: 20px ;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+ 
+    .attachmentContainer {
+        flex-direction: row;
+        align-items: center;
+
+        text-align: center;
+    }
+    .icon {
+        width:15px;
+    }
+    .content{
+        font-size: 10px;
+        max-width: max-content;
+        text-align: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    .textAreaContainer{
+        flex-direction: column;
+        // width: 100%;
+    }
+    .textAreaMainContainer {
+        padding-right: 0px;
+        padding-bottom: 5px;
+    }
+    .postButton {
+        margin-bottom: 5px;
+    }
+  }

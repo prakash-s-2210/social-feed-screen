@@ -1,0 +1,121 @@
+// side navigation bar profile information  styles
+
+.personalInformation {
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 8px;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 15px;
+    justify-content: flex-start;
+}
+.profileImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 80%;
+}
+.profileContent {
+    padding-left: 18px;
+    font-weight: bold;
+    margin: 0px;
+}
+// profile details styles
+.profileOptions {
+    display: flex;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.profileDetails {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.profileOptions {
+    cursor: pointer;
+    background-color: #9c075b;
+
+    // background-color: #9c075b;
+    // color: #fff;
+}
+.profileOptions:focus{
+    background-color: #9c075b;
+}
+// .nav-link:hover{
+//     background-color: #9c075b;
+// }
+nav a{
+    text-decoration: none;
+    color: black;
+    background-color: #9c075b;
+}
+div a.active {
+    text-decoration: none;
+    background-color: #9c075b;
+    color: black;
+}
+.profileImage {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;              
+}
+.sideBarIcon{
+    width: 25%;
+    height:auto;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+
+}
+.detail {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title {
+    text-align: left;
+    margin: 10px;
+}
+.count {
+    color: #b6b6b6;
+}
+.recentlyAddedContainer {
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 15px;
+}
+// side nav bar button styles
+.leftPanelButton {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 0px;
+    border-style: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.leftPanelButton:hover {
+    background-color: #9c075b;
+    color: white;
+    font-weight: bold;
+}
+.seeMoreButton{
+    padding-left: 5px;
+    padding-left: 30px;
+    padding-right: 15px;
+    text-align: center;
+}
+.upAndDownButton {
+    padding-left: 5px;
+}
+

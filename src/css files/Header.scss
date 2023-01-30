@@ -1,0 +1,95 @@
+.headerContainer {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    z-index: 4;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px #edebec;
+    border-width: 1px 0px 1px 4px;
+}
+.hamburgerIconContainer {
+    font-size: 24px;
+    display: none;
+    padding-right: 55px;
+    cursor: pointer;
+}
+.hamburgerIcon {
+    padding: 10px;
+}
+.hamburgerIconContainer:hover {
+    background-color: white;
+}
+.hamburgerIcon:hover{
+    color: white;
+    background-color: #9c075b;
+}
+.navBarContainer {
+    box-sizing: border-box;
+    width: 23%;
+    display: flex;
+    align-items: center;
+    border-color: #edebec;
+    background-color: white;
+    padding: 20px 0px;
+}
+.navBarLeftArrowIcon {
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.arrowLeftIcon {
+    font-size: 25px;
+}
+.arrowLeftIcon:hover {
+    color: #9c075b;
+    cursor: pointer;
+}
+.greaterThanIcon {
+    font-size: 10px;
+    padding: 0px 0.59%;
+    padding-top: 4px;
+    text-align: right;
+    margin-right: 20px;
+}
+.greaterThanIcon:hover {
+    color: #9c075b;
+    cursor: pointer;
+}
+.dashBoard {
+    color: #585858;
+    letter-spacing: -0.8px;
+    margin-right: 20px;
+}
+.dashboard:hover {
+    color: #9c075b;
+    cursor: pointer;
+}
+.socialFeed {
+    min-width: fit-content;
+    font-weight: 600;
+    letter-spacing: -0.8px;
+    justify-content: flex-end;
+}
+@media only screen and (max-width: 990px) {
+    .hamburgerIconContainer {
+        display: block;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .navBarLeftArrowIcon{
+        margin: 0px 20px;
+    }
+    .dashBoard {
+        margin-right: 10px;
+    }
+    .greaterThanIcon {
+        margin-right: 10px;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .hamburgerIconContainer {
+        padding-right: 20px;
+    }
+  }

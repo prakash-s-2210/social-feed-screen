@@ -1,0 +1,56 @@
+.mainContainer {
+    width: 100%;
+    display: flex;
+}
+.sideNavigationBar{
+    margin-bottom: 90px;
+}
+.showNavigationBarContainer {
+    background: white;
+    overflow-y: auto;
+    padding-bottom: 80px;
+    position: fixed;
+    top: 65px;
+    width: 21%;
+    border-style: solid;
+    border-color: #edebec;
+    box-shadow: 0px 3px #edebec;
+    z-index: 3;
+    height: 100%;
+}
+.postFeedContainer {
+    position: absolute;
+    left: 35%;
+    top: 110px;
+    width: 55%;
+    bottom: 0;  
+}
+.dummy-page {
+    position: absolute;
+    left: 45%;
+    top: 240px;
+    width: 25%;
+    bottom: 0; 
+}
+
+@media only screen and (max-width: 990px) {
+    .showNavigationBarContainer {
+        transform:translateX(500px);
+        transition: 0.5s;
+        right:0;
+        width: 40%;
+    }
+    .display{
+        transform: translateX(0);
+        transition: 0.5s;
+    }
+    .dummy-page {
+        left:25%;
+        width: 45%;
+    }
+  }
+  @media only screen and (max-width: 450px) {
+    .showNavigationBarContainer {
+        width: 50%;
+    }
+}
